@@ -1,10 +1,10 @@
 #### Images
-Image markdown used to be:
+Old Format:
 ```
-    ![image]
-    [image]: ./images/old_image.png
+  ![image]
+  [image]: ./images/old_image.png
 ```
-Current
+Current Format:
 ```
-    [image](url)
+  [image](url)
 ```
