@@ -9,7 +9,7 @@ Correct Format:
 ![image](image url here)
 ```
 
-After testing, I found that the old format works if you add an extra line(enter) between the bracket refence and the image link reference
+After testing, I found that the old format works if you add at least an extra line between the bracket reference and the image link reference it still works
 ```
 ![image]
 
