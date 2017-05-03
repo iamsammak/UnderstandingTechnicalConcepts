@@ -15,3 +15,11 @@ After testing, I found that the old format works if you add at least an extra li
 
 [image]: ./images/old_image.png
 ```
+
+####Emphasis
+
+Italics
+```
+*This will be in italics below*
+```
+*This will be in italics below*
