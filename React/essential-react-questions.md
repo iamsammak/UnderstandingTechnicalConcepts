@@ -88,4 +88,15 @@ class MyComponent extends React.Component {
 }
 ```
 **For more specific details**, go through [React docs on component lifecycle](https://facebook.github.io/react/docs/react-component.html)
+
+
+### 3. JSX
+
+Facebook introduced a new dialect of JavaScript called JSX that embeds raw HTML templates inside JavaScript code
+    JSX code by itself cannot be read by the browser
+    It must be transpiled into traditional JS using tools like Babel and webpack
+
+
+Review the React docs on [JSX Gotchas](https://facebook.github.io/react/docs/jsx-in-depth.html)
+
 <!-- Links -->
