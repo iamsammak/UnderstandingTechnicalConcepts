@@ -2,9 +2,8 @@
 
 ### 1. What is React?
 
-```
-React is an open-source JavaScript library created by Facebook for building complex, interactive UIs in web and mobile applications.
-```
+  React is an open-source JavaScript library created by Facebook for building complex, interactive UIs in web and mobile applications.
+
 
 Key points:
 + React builds UI components
