@@ -2,7 +2,7 @@
 
 ### 1. What is React?
 
-  React is an open-source JavaScript library created by Facebook for building complex, interactive UIs in web and mobile applications.
+  *React is an open-source JavaScript library created by Facebook for building complex, interactive UIs in web and mobile applications.*
 
 
 Key points:
@@ -18,11 +18,20 @@ Key points:
   - React uses Flux, where data flow is unidirectional
   - React has a pure JS approach.
     When used with the JSX library, allows you to define the HTML view in the js file itself
+  - Reach works with the Virtual DOM and not the DOM directly
+  ![react-DOM](./react-virtual-dom.png)
 
   Quick input about AngularJS
   - Two-way binding:
     Any data-related changes affecting the model are immediately propagated to the matching view(s), and that any changes made in the view(s) (say, by the user) are immediately reflected in the underlying model. When the app data changes, so does the UI, and conversely.
+  - Dirty checking is carried out after *any* operation is performed within Angular's score ($digest cycle) which leads to slower performance as the amount of binding increases
+  - Steep learning curve
+    Modules, controllers, directives, scopes, templating, linking functions, filters dependency injection
+
+  Great comparision by Pete Hunt (Facebook/Instagram) on [AngularJS vs React](https://www.quora.com/profile/Pete-Hunt/Posts/Facebooks-React-vs-AngularJS-A-Closer-Look)
 
 
 + If React only focuses on a small part of building UI components, can you explain some pitfalls one might encounter when developing a large application?
 + If you were rewriting an AngularJS application in React, how much code could you expect to re-use?
+
+<!-- Links -->
