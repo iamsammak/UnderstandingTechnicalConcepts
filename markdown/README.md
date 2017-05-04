@@ -1,4 +1,4 @@
-#### Images
+### Images
 Old Format:
 ```
 ![image]
@@ -16,7 +16,7 @@ After testing, I found that the old format works if you add at least an extra li
 [image]: ./images/old_image.png
 ```
 
-####Emphasis
+### Emphasis
 
 ```
 Emphasis, aka italics, with *asterisks* or _underscores_.
