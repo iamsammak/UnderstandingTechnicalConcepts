@@ -20,6 +20,6 @@ A basic HTTP request consists of a verb (method) and a resource (endpoint). Belo
 | PATCH | Partially updates a resource | No | No | Yes if response contains freshness info |
 | DELETE | Deletes a resource | Yes | No | No |
 
-*Can be called many times without different outcomes.
+\*Can be called many times without different outcomes.
 
 HTTP is an application layer protocol relying on lower-level protocols such as TCP and UDP
