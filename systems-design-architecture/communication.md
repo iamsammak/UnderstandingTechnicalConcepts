@@ -82,6 +82,16 @@ Below info copied from donnemartin's [system design primer](https://github.com/d
   <i><a href=http://www.wildbunny.co.uk/blog/2012/10/09/how-to-make-a-multi-player-game-part-1/>Source: How to make a multiplayer game</a></i>
 </p>
 
+#### Quick and Dirty
+
+TCP manages the sending and receiving of all your data as packets. Think of it like a guaranteed mail service. Example: when you request a song on your device. Spotify sends the song broken up into many packets. When your packets arrive, TCP does a full inventory and sends back acknowledgements of each packet received. If all packets are there, TCP signs for your delivery and you're done. If TCP finds some packets are missing, it won't sing. Otherwise, your song wouldn't song as good or portions of the song could be missing. For each missing or incomplete packet, Spotify will resend them. Once TCP verifies the delivery of many packets for that one song request, your song will play.
+
+TCP + Router system is scalable
+  - the more routers you add, because of fault tolerance and redundancy, the more reliable the Internet becomes
+  - you can grow and scale the internet without interrupting anyone using it
+
+#### The long
+
 TCP is a connection-oriented protocol over an [IP network](https://en.wikipedia.org/wiki/Internet_Protocol).  Connection is established and terminated using a [handshake](https://en.wikipedia.org/wiki/Handshaking).  All packets sent are guaranteed to reach the destination in the original order and without corruption through:
 
 * Sequence numbers and [checksum fields](https://en.wikipedia.org/wiki/Transmission_Control_Protocol#Checksum_computation) for each packet
