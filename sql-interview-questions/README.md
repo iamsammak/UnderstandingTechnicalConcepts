@@ -55,3 +55,5 @@ However, when `GROUP_BY` is used:
 [Another explanation](http://javarevisited.blogspot.com/2013/08/difference-between-where-vs-having-clause-SQL-databse-group-by-comparision.html)
 
 - `WHERE` clause is used to filter rows before you aggregate them and then `HAVING` clause comes in picture for final filtering.
+
+- And in case you were wondering about `WHERE` clause vs `JOIN`. Check this [stackoverflow answer](http://stackoverflow.com/questions/24876673/explain-join-vs-left-join-and-where-condition-performance-suggestion-in-more-de)
