@@ -65,8 +65,8 @@ The __bind()__ method returns a new function, allowing you to pass in a this arr
 
 ## When To Use Each
 Call and apply are pretty interchangeable. Just decide whether it's easier to send in an array or a comma separated list of arguments.
-  **C**\ all is for comma (separated list)
-  **A**\ pply is for Array
+  **C**\all is for comma (separated list)
+  **A**\pply is for Array
 
 Bind is a bit different. It returns a new function Call and Apply execute the current function immediately.
 
