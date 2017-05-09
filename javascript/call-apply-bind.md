@@ -8,7 +8,7 @@ Code examples from: https://codeplanet.io/javascript-apply-vs-call-vs-bind/
 
 ### Call
 
-[Function.prototype.call()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/call)
+MDN Docs: [Function.prototype.call()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/call)
 
 The __call()__ method invokes the funciton and allows you to pass in arguments one by one.
 
@@ -26,7 +26,7 @@ The __call()__ method invokes the funciton and allows you to pass in arguments o
 
 ### Apply
 
-[Function.prototype.apply()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/apply)
+MDN Docs: [Function.prototype.apply()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/apply)
 
 The __apply()__ method invokes the function and allows you to pass in arguments as an array.
 
@@ -44,7 +44,7 @@ The __apply()__ method invokes the function and allows you to pass in arguments 
 
 ### Bind
 
-[Function.prototype.bind()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/bind)
+MDN Docs: [Function.prototype.bind()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/bind)
 
 The __bind()__ method returns a new function, allowing you to pass in a this array and any number of arguments.
 
