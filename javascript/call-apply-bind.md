@@ -10,7 +10,7 @@ Code examples from: https://codeplanet.io/javascript-apply-vs-call-vs-bind/
 
 MDN Docs: [Function.prototype.call()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/call)
 
-The __call()__ method invokes the funciton and allows you to pass in arguments one by one.
+The __call()__ method invokes the function and allows you to pass in arguments one by one.
 
 ```js
   var person1 = {firstName: 'Jon', lastName: 'Kuperman'};
