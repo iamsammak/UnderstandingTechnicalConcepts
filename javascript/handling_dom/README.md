@@ -5,22 +5,23 @@
   let h1 = document.createElement('h1');
 ```
 
-#### Set Attributes
+### Set Attributes
 ```js
   h1.setAttribute("id", "main-color");
   h1.setAttribute("class", "demo-class");
 ```
 
-#### Style it
+### Style it
 ```js
   h1.style.position = "absolute";
   h1.style.width = "100vw";
   h1.style.height = "100vh";
   h1.style.backgroundColor = "orange";
+  h1.innerHTML = "Hello";
 ```
 
-#### Remove an Element
-The traditional (man of steel) way
+### Remove an Element
+##### The traditional (man of steel) way
 
 For this example lets say we have the following HTML element
 ```HTML
@@ -32,15 +33,22 @@ run the following JavaScript lines to remove it
   elem.parentNode.removeChild(elem);
 ```
 
-Using jQuery
+##### Using jQuery
 ```js
   $('#myDiv').remove();
 ```
 
-The NEW way: using [remove()](https://www.w3schools.com/jsref/met_select_remove.asp)
+##### The NEW way: using [remove()](https://www.w3schools.com/jsref/met_select_remove.asp)
 ```js
   var elem = document.getElementById("myDiv");
   elem.remove();
+```
+
+### Append into DOM tree
+```js
+  document.getElementById("main").appendChild(div);
+  // OR
+  document.body.appendChild(div);
 ```
 
 ### Other ways
