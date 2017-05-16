@@ -99,4 +99,32 @@ Facebook introduced a new dialect of JavaScript called JSX that embeds raw HTML 
 
 Review the React docs on [JSX Gotchas](https://facebook.github.io/react/docs/jsx-in-depth.html)
 
+### 4. Virtual DOM Questions
+What is React's virtual DOM and why is it used? How does the diffing algorithm work?
+
+Virtual DOM is a simpler and faster abstraction of the HTML DOM. You may think that its more expensive to manage two DOMs, but being able to traverse and perform operations on the virtual DOM saves React from having to have costly interactions with the real one, only updating it when it absolutely needs to.
+
+#### Virtual DOM
+React keeps two copes of a virtual DOM (the original and updated versions). These two virtual DOM trees are passed into a React function that diffs them a stream of DOM operations are returned (generally these operations involve setting a property on an element)
+
+![react-virtual-dom](http://www.funnyant.com/wp-content/uploads/2014/07/reactjs-virtual-dom.png)
+
+```
+Consider a DOM made of thousands of divs. Remember, we are modern web developers, our app is very SPA! We have lots of methods that handle events - clicks, submits, type-ins… A typical jQuery-like event handler looks like this:
+
+find every node interested on an event
+update it if necessary
+Which has two problems:
+
+It’s hard to manage. Imagine that you have to tweak an event handler. If you lost the context, you have to dive really deep into the code to even know what’s going on. Both time-consuming and bug-risky.
+
+It’s inefficient. Do we really need to do all this findings manually? Maybe we can be smarter and tell in advance which nodes are to-be-updated?
+
+Once again, React comes with a helping hand. The solution to problem 1 is declarativeness. Instead of low-level techniques like traversing the DOM tree manually, you simple declare how a component should look like. React does the low-level job for you - the HTML DOM API methods are called under the hood. React doesn’t want you to worry about it - eventually, the component will look like it should.
+
+```
+
+#### ReactComponents
+Whenever a ReactComponent is changing the state, we want to make as little changes to "real" DOM as possible. So the ReactComponent is converted into a React Element which is then inserted to the virtual DOM via the diff algorithm.
+
 <!-- Links -->
