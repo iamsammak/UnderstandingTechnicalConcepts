@@ -22,7 +22,8 @@ Great way of thinking is Mobile First. Designing for mobile and scaling your web
 ### Apple
 
 |                           | Pixel Size   | Viewport    |
-|iPhone                     |:------------:|------------:|
+|---|:------------:|------------:|
+|iPhone                     |   |   |
 | 7 Plus	                  | 1080 x 1920  | 414 x 736   |
 | 7	                        | 750 x 1334	 | 375 x 667   |
 | 6 Plus/6S Plus            | 1080 x 1920  | 414 x 736   |
